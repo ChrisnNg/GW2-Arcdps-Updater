@@ -1,0 +1,2 @@
+powershell -Command "(New-Object Net.WebClient).DownloadFile('https://www.deltaconnected.com/arcdps/x64/d3d11.dll', 'dxgi.dll')"
+powershell -Command "Invoke-WebRequest https://www.deltaconnected.com/arcdps/x64/d3d11.dll -OutFile dxgi.dll"
